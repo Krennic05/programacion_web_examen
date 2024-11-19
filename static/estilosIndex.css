@@ -1,0 +1,73 @@
+.h2 {
+    font-family: sans-serif;
+}
+
+.button {
+    background-color: royalblue;
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="text"] {
+    height: 18px;
+    width: 380px;
+    margin-bottom: 10px;
+}
+input[type="password"] {
+    height: 18px;
+    width: 380px;
+    margin-bottom: 10px;
+}
+
+input.button[name="A"] {
+    background: deeppink;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    border: pink;
+}
+
+input.button[name="B"] {
+    background: green;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    border: green;
+}
+
+label[name="B"] {
+    font-weight: normal;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 20px;
+
+}
+
+form {
+    justify-items: center;
+}
+
+.centered-text{
+    text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/estilosIndex.css">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 class="centered-text">Inicio de sesión</h2>
+            <form method="POST">
+                <div><label for="nombre">Ingresa tu nombre:</label></div>
+                <div><input type="text" name="nombre" value={{nombreInput}}><br></div>
+                <div><label for="contraseña">Ingresa tu contraseña:</label></div>
+                <div><input type="password" name="contraseña" value={{contraseñaInput}}><br></div>
+                <div><input class="button" type="submit" value="Verificar"></div>
+            </form>
+            <div><label>{{saludoInput}}</label></div>
+        </div>
+
+    </div>
+</body>
+</html>
